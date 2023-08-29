@@ -27,7 +27,7 @@ int main(int ac, char **av)
     if (ac == 3)
     {
         int x = ft_strlen(av[1]) + ft_strlen(av[2]);
-        char output[x];
+        char output[x + 1];
         int s = 0;
         int f = 0;
         int j = 0;
